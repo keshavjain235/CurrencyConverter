@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2D42</color>
+    <color name="colorPrimaryDark">#6E7271</color>
+    <color name="colorAccent">#AFC2D5</color>
+    <color name="creamColor">#EFECCA</color>
+    <color name="lightgray">#CCDDD3</color>
+    <color name="bone">#DFEFCA</color>
+    <color name="canary">#FFF9A5</color>
+    <color name="lighttaupe">#B48B7D</color>
+</resources>

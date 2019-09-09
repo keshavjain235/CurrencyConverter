@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#424242">
+
+    <!--<Button-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@drawable/back"-->
+        <!--android:elevation="30dp"-->
+        <!--android:text="login"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="italic" />-->
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:hint="Enter Your Amount in Rupees"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ed2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/ed1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/ed2"
+        android:layout_marginTop="150dp"
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/usd"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/back2"
+            android:text="USD"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yen"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/back3"
+            android:text="YEN"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/eur"
+            android:layout_width="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="75dp"
+            android:background="@drawable/back4"
+            android:text="EURO"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rl2"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cny"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/back5"
+            android:text="CNY"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pound"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/back6"
+            android:text="POUND"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
